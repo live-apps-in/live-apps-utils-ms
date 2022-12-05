@@ -6,7 +6,8 @@
   "scripts": {
     "start": "nodemon ./src/main.ts",
     "lint": "eslint . --ext .ts",
-    "lint:fix": "npm run lint -- --fix"
+    "lint:fix": "npm run lint -- --fix",
+    "copy:assets": "cpx ./src/app/mail/templates/\\** ./dist/app/mail/templates/"
   },
   "repository": {
     "type": "git",
